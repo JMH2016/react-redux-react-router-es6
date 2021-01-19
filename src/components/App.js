@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="/about" component={AboutPage} />
         <Route path="/courses" component={CoursesPage} />
-        <Route path="/" component={PageNotFound} />
+        <Route component={PageNotFound} />
       </Switch>
     </div>
   );
